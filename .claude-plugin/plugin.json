@@ -1,0 +1,10 @@
+{
+  "name": "impactful-explainer-video",
+  "version": "1.0.0",
+  "description": "Make animated explainer videos about technical topics on your own machine, with manim, Kokoro narration, word level captions and ffmpeg. No paid APIs.",
+  "author": { "name": "Kaivalya Ahir" },
+  "homepage": "https://github.com/default-cybe/tech-explainer-video-skill",
+  "repository": "https://github.com/default-cybe/tech-explainer-video-skill",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png"
+}

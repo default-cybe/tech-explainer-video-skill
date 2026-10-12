@@ -1,0 +1,9 @@
+.venv/
+media/
+out/
+audio/*.wav
+audio/durations.json
+assets/*.onnx
+assets/*.bin
+__pycache__/
+*.pyc

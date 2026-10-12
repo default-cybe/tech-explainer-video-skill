@@ -1,0 +1,12 @@
+{
+  "name": "tech-explainer-video-skill",
+  "owner": { "name": "default-cybe" },
+  "description": "Claude Code skills for technical explainer videos",
+  "plugins": [
+    {
+      "name": "impactful-explainer-video",
+      "source": "./",
+      "description": "Animated explainer video skill with a fully local pipeline"
+    }
+  ]
+}
