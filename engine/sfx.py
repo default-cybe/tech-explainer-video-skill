@@ -78,7 +78,7 @@ def main():
         for t0,name in ev:
             g=GEN.get(name)
             if g: place(sfx, g(), offset+t0)
-        offset+=dur
+        offset+=dur+0.6   # each segment carries a 0.6s tail; keep cue offsets aligned
     sfx*=0.9/(np.max(np.abs(sfx))+1e-6)*0.9
     sf.write("out/sfx.wav", sfx, SR)
     sf.write("out/music.wav", music(total), SR)

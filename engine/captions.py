@@ -79,7 +79,7 @@ def main():
                 cs=max(6,int(round((nxt-a)*100)))
                 txt+=f"{{\\kf{cs}}}{w} "
             lines.append(f"Dialogue: 0,{ass_time(st)},{ass_time(en)},Cap,,0,0,0,,{txt.strip()}")
-        offset+=dur
+        offset+=dur+0.6   # each segment carries a 0.6s tail (see build); keep offsets aligned
     open(out,"w").write("\n".join(lines)+"\n")
     print("wrote",out,"offsets end",round(offset,2),"s")
 
